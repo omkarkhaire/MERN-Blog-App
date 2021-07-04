@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.topbar {
+  width: 100%;
+  height: 10vh;
+  border: 1px solid black;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 5px 5px gray;
+  background-color: snow;
+  font-family: "josefin Sans", "sans-serif";
+  z-index: 1;
+  /* justify-content: space-evenly; */
+}
+
+.topleft {
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+}
+.icons {
+  margin: auto 1rem;
+  cursor: pointer;
+  font-size: 18px;
+  color: rgb(0, 136, 255);
+}
+.topright {
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.topright img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.topcenter {
+  flex: 6;
+  display: flex;
+  justify-content: space-evenly;
+}
+.toplist {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+.toplistitem {
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  margin: auto 1rem;
+}
+.searchicon {
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 15px;
+}
+

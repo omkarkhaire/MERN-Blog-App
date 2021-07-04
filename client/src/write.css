@@ -1,0 +1,103 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.mainwrite {
+  padding-top: 20px;
+  background: url("./assets/writebackground.jpg");
+  background-size: cover;
+  object-fit: contain;
+  background-color: aliceblue;
+}
+.writeform {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  height: 50vw;
+  position: relative;
+}
+.writeformgroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  text-align: center;
+  margin: 0px;
+}
+.iconimg {
+  font-size: 20px;
+  color: rgb(7, 139, 255);
+  margin-left: 15px;
+}
+.writeinput {
+  font-size: 30px;
+  border: none;
+  /* padding: 20px; */
+  width: 70vw;
+  box-shadow: 10px 10px 10px gray, -10px -10px 10px gray;
+  /* box-shadow: -10px -10px 10px gray; */
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.writeinput:focus {
+  outline: none;
+}
+.writetext {
+  font-size: 20px;
+  height: 100%;
+  resize: none;
+}
+.desc {
+  height: 30vw;
+  margin: 1rem 0px 0px 15px;
+}
+textarea {
+  height: 100%;
+  width: 100%;
+  text-transform: capitalize;
+}
+.writesubmit {
+  position: absolute;
+  width: 10vw;
+  height: 40px;
+  border-radius: 50px;
+  right: 20px;
+  top: 50px;
+  background-color: transparent;
+  border: 5px solid rgb(4, 138, 255);
+  transition: all 0.3s linear;
+  font-weight: bolder;
+}
+.writesubmit:hover {
+  background-color: rgb(4, 138, 255);
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+
+.myimage {
+  width: 90vw;
+  height: 80vh;
+  margin: 2rem;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px gray, -10px -10px 10px gray;
+}
+label {
+  text-align: center;
+}
+.imagediv {
+  display: grid;
+  place-items: center;
+}
+h3 {
+  text-align: center;
+  font-family: "lora", "serif";
+  font-size: 3vw;
+}
+input {
+  text-align: start;
+}
+input:focus {
+  text-align: start;
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.mainheader {
+  margin-top: 10px;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+}
+.headertitel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "lora", serif;
+  color: rgb(51, 51, 51);
+  /* color: white; */
+}
+.headertitel1 {
+  position: absolute;
+  top: 60%;
+  font-size: 3.1vw;
+}
+.headertitel2 {
+  position: absolute;
+  top: 65%;
+  font-size: 7.1vw;
+}
+.headerimg {
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  width: 100%;
+  height: 120vh;
+  margin-top: -1rem;
+  object-fit: cover;
+}
